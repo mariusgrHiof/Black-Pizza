@@ -1,51 +1,68 @@
-
-html{
-  color: #E9E9E9;
-
+html {
+  color: #e9e9e9;
+  font-family: "Roboto", sans-serif;
 }
-
-
 
 /* ==========================================================================
    Header section
    ========================================================================== */
 
-
-.nav-bar{
-  background-color: #1C1C1C;
-  
+.nav-bar {
+  background-color: #1c1c1c;
+  font-size: 1.5em;
+  text-align: center;
+  vertical-align: middle;
 }
-   
+
+
 ul.top-left-menu {
   display: inline-block;
   list-style: none;
+  width: 30%;
+  margin-left: 2.5em;
 }
 
 ul.top-left-menu li {
   display: inline-block;
+  margin-left: 2em;
 }
 
-ul.top-left-menu li a{
+ul.top-left-menu li a {
   text-decoration: none;
 }
 
 .top-title {
   display: inline-block;
+  width: 30%;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
-ul.top-right-menu{
+ul.top-right-menu {
   display: inline-block;
   list-style: none;
+  width: 30%;
 }
 
-ul.top-right-menu li{
+ul.top-right-menu li {
   display: inline-block;
+  margin-right: 2em;
 }
 
-ul.top-right-menu li a{
+ul.top-right-menu li a {
   text-decoration: none;
 }
 
-.nav-bar li a{
-  color: #E9E9E9;
+.nav-bar li a {
+  color: #e9e9e9;
+}
+
+.vertical{
+  position: relative;
+  display: inline-block;
+  right: 22px;
+  height: 40px;
+  width: 2px;
+  background-color: white;
+  vertical-align: middle;
 }
