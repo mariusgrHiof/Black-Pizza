@@ -1,0 +1,51 @@
+
+html{
+  color: #E9E9E9;
+
+}
+
+
+
+/* ==========================================================================
+   Header section
+   ========================================================================== */
+
+
+.nav-bar{
+  background-color: #1C1C1C;
+  
+}
+   
+ul.top-left-menu {
+  display: inline-block;
+  list-style: none;
+}
+
+ul.top-left-menu li {
+  display: inline-block;
+}
+
+ul.top-left-menu li a{
+  text-decoration: none;
+}
+
+.top-title {
+  display: inline-block;
+}
+
+ul.top-right-menu{
+  display: inline-block;
+  list-style: none;
+}
+
+ul.top-right-menu li{
+  display: inline-block;
+}
+
+ul.top-right-menu li a{
+  text-decoration: none;
+}
+
+.nav-bar li a{
+  color: #E9E9E9;
+}
