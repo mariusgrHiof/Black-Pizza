@@ -96,18 +96,28 @@ ul.top-right-menu li a {
   height: 800px;
 }
 
+
+
+#add-to-card-banner {
+  position: absolute;
+  bottom: 28px;
+  left: 16px;
+}
+
+.price-tag p{
+  width: 330px;
+  font-size: 3em;
+}
+
 .price-tag {
   position: absolute;
   bottom: 88px;
   left: 16px;
-  border-left: 5px solid #73000D;
 }
 
-.add-to-card {
-  position: absolute;
-  bottom: 28px;
-  left: 16px;
+.add-to-card-button{
   background-color: #73000D;
-  padding: 0 40px;
+  padding: 0 80px;
+  font-size: 1.5em;
+  border-radius: 5px;
 }
-
