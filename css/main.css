@@ -54,7 +54,7 @@ ul.top-left-menu li a {
   font-weight: 500;
 }
 
-.top-title h2 a{
+.top-title h2 a {
   text-decoration: none;
   color: #e9e9e9;
 }
@@ -150,6 +150,17 @@ ul.top-right-menu li a {
   overflow: hidden;
 }
 
+.featured-product h3 {
+  text-align: left;
+  margin-left: 45px;
+}
+
+.featured-product p {
+  text-align: left;
+  margin-left: 45px;
+  line-height: 1.4em;
+}
+
 .clearFix {
   content: "";
   display: table;
@@ -162,8 +173,8 @@ ul.top-right-menu li a {
 
 .pizza-img {
   width: 85%;
-  margin: 50px 0;
-  box-shadow: 6px 3px 15px rgba(0, 0, 0, 0.1);
+  margin: 40px 0;
+  box-shadow: 6px 5px 15px 12px rgba(0, 0, 0, 0.1);
 }
 
 .add-to-card-button {
@@ -176,13 +187,11 @@ ul.top-right-menu li a {
   width: 30%;
   display: inline-block;
   float: right;
-
-
 }
 
-.price-tag{
+.price-tag {
   display: inline-block;
   float: left;
   font-size: 2.5em;
-  margin-left: 15px;
+  margin-left: 45px;
 }
