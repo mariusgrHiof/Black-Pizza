@@ -94,6 +94,7 @@ ul.top-right-menu li a {
 
 #pizza-banner {
   max-width: 100%;
+  background-image: ;
 }
 
 .container {
@@ -138,6 +139,7 @@ ul.top-right-menu li a {
   text-align: center;
   padding: 55px 0;
   font-size: 2.25em;
+  letter-spacing: 4px;
 }
 
 .featured-product {
@@ -158,6 +160,7 @@ ul.top-right-menu li a {
 .featured-product p {
   text-align: left;
   margin-left: 45px;
+  margin-bottom: 60px;
   line-height: 1.4em;
 }
 
@@ -171,7 +174,8 @@ ul.top-right-menu li a {
   text-align: center;
 }
 
-.pizza-img {
+.pizza-img,
+.snacks-img {
   width: 85%;
   margin: 40px 0;
   box-shadow: 6px 5px 15px 12px rgba(0, 0, 0, 0.1);
@@ -195,3 +199,4 @@ ul.top-right-menu li a {
   font-size: 2.5em;
   margin-left: 45px;
 }
+
