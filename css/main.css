@@ -20,6 +20,10 @@ body {
   background-color: #1c1c1c;
 }
 
+main{
+  padding-bottom: 160px;
+}
+
 /* ==========================================================================
    Header section
    ========================================================================== */
@@ -188,7 +192,7 @@ ul.top-right-menu li a {
   font-size: 1.5em;
   border-radius: 5px;
   padding: 15px;
-  width: 30%;
+  width: 40%;
   display: inline-block;
   float: right;
 }
@@ -200,3 +204,52 @@ ul.top-right-menu li a {
   margin-left: 45px;
 }
 
+/* ==========================================================================
+   Footer section
+   ========================================================================== */
+
+footer{
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.footer-menu{
+  width: 30%;
+  display: inline-block;
+  margin-top: 60px;
+}
+.footer-menu ul li{
+  list-style: none;
+  line-height: 28px;
+  
+}
+
+.footer-menu ul{
+  display: inline-block;
+  margin-right: 18px;
+  margin-top: -20px;
+  text-align: left;
+}
+.services{
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  top: -55px;
+}
+
+.services p{
+  margin-top: -20px;
+}
+.contact{
+  display: inline-block;
+  width: 30%;
+  position: relative;
+  top: -34px;
+}
+
+.contact-info{
+  margin-top: -24px;
+  padding: 5px;
+}
